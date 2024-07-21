@@ -1,20 +1,22 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\GitHub\\WPFQLVeXe\\WPFQLVeXe\\WPFQLVeXe.csproj": {}
+
+    "C:\\Users\\Desktop\\Documents\\GitHub\\WPFQLVeXe\\WPFQLVeXe\\WPFQLVeXe.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\GitHub\\WPFQLVeXe\\WPFQLVeXe\\WPFQLVeXe.csproj": {
+    "C:\\Users\\Desktop\\Documents\\GitHub\\WPFQLVeXe\\WPFQLVeXe\\WPFQLVeXe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\GitHub\\WPFQLVeXe\\WPFQLVeXe\\WPFQLVeXe.csproj",
+        "projectUniqueName": "C:\\Users\\Desktop\\Documents\\GitHub\\WPFQLVeXe\\WPFQLVeXe\\WPFQLVeXe.csproj",
         "projectName": "WPFQLVeXe",
-        "projectPath": "D:\\Documents\\GitHub\\WPFQLVeXe\\WPFQLVeXe\\WPFQLVeXe.csproj",
-        "packagesPath": "C:\\Users\\Zanis\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\GitHub\\WPFQLVeXe\\WPFQLVeXe\\obj\\",
+        "projectPath": "C:\\Users\\Desktop\\Documents\\GitHub\\WPFQLVeXe\\WPFQLVeXe\\WPFQLVeXe.csproj",
+        "packagesPath": "C:\\Users\\Desktop\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Desktop\\Documents\\GitHub\\WPFQLVeXe\\WPFQLVeXe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Zanis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Desktop\\AppData\\Roaming\\NuGet\\NuGet.Config",
+
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,7 +89,9 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+
         }
       }
     }

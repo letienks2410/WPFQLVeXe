@@ -16,6 +16,12 @@
     <Compile Update="View\DangNhap.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\NVHangHoa.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\NVThongTinHangHoa.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\QuanLi.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -36,10 +42,12 @@
     <Page Update="View\DangNhap.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="View\NVDatVe.xaml">
+
+    <Page Update="View\NVHangHoa.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="View\NVThongTinDatVe.xaml">
+    <Page Update="View\NVThongTinHangHoa.xaml">
+
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\QLPhanCong.xaml">

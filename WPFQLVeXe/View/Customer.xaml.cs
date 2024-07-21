@@ -33,8 +33,8 @@ namespace WPFQLVeXe.View
 
         private void btnHangHoa(object sender, RoutedEventArgs e)
         {
-            //txbContent.Text = "Chuyển hàng";
-            //Switcher.Switch(new NVHangHoa());
+            txbContent.Text = "Chuyển hàng";
+            Switcher.Switch(new NVHangHoa());
         }
 
         private void btnThongTinDatVe(object sender, RoutedEventArgs e)
@@ -45,8 +45,8 @@ namespace WPFQLVeXe.View
 
         private void btnThongTinHangHoa(object sender, RoutedEventArgs e)
         {
-            //txbContent.Text = "Thông tin hàng hóa";
-            //Switcher.Switch(new NVThongTinHangHoa());
+            txbContent.Text = "Thông tin hàng hóa";
+            Switcher.Switch(new NVThongTinHangHoa());
         }
 
         private void btnInfo(object sender, RoutedEventArgs e)

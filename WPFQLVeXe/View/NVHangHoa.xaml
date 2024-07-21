@@ -1,0 +1,76 @@
+﻿<UserControl x:Class="WPFQLVeXe.View.NVHangHoa"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             
+             xmlns:local="clr-namespace:WPFQLVeXe.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <WrapPanel>
+        <StackPanel>
+            <GroupBox  Header="Người gửi" Background="SkyBlue" Margin="10,10,0,0">
+                <Grid x:Name="grbSender">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="Họ tên: " HorizontalAlignment="Left" Margin="0,10,0,2"/>
+                    <TextBox Name="tbGui" Width="150" Grid.Column="2" Margin="0,10,0,5"/>
+                    <TextBlock Text="CMND: " HorizontalAlignment="Left" Grid.Row="1" Margin="0,0,0,2"/>
+                    <TextBox Name="tbGuiCMND" Width="150" Grid.Column="2" Grid.Row="1" Margin="0,0,0,5"/>
+                    <TextBlock Text="Địa chỉ: " HorizontalAlignment="Left" Grid.Row="2" Margin="0,0,0,2"/>
+                    <TextBox Name="tbGuiDiaChi" Width="150" Grid.Column="2" Grid.Row="2" Margin="0,0,0,5"/>
+                    <TextBlock Text="SDT: " HorizontalAlignment="Left" Grid.Row="3" Margin="0,0,0,2"/>
+                    <TextBox Name="tbGuiSDT" Width="150" Grid.Column="2" Grid.Row="3" Margin="0,0,0,5"/>
+                </Grid>
+            </GroupBox>
+
+            <GroupBox  Header="Người nhận" Background="SkyBlue" Margin="10,10,0,0">
+                <Grid x:Name="grbReceiver">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="Họ tên: " HorizontalAlignment="Left" Margin="0,10,0,2"/>
+                    <TextBox Name="tbNhan" Width="150" Grid.Column="2" Margin="0,10,0,5"/>
+                    <TextBlock Text="CMND: " HorizontalAlignment="Left" Grid.Row="1" Margin="0,0,0,2"/>
+                    <TextBox Name="tbNhanCMND" Width="150" Grid.Column="2" Grid.Row="1" Margin="0,0,0,5"/>
+                    <TextBlock Text="Địa chỉ: " HorizontalAlignment="Left" Grid.Row="2" Margin="0,0,0,2"/>
+                    <TextBox Name="tbNhanDiaChi" Width="150" Grid.Column="2" Grid.Row="2" Margin="0,0,0,5"/>
+                    <TextBlock Text="SDT: " HorizontalAlignment="Left" Grid.Row="3" Margin="0,0,0,2"/>
+                    <TextBox Name="tbNhanSDT" Width="150" Grid.Column="2" Grid.Row="3" Margin="0,0,0,5"/>
+                </Grid>
+            </GroupBox>
+        </StackPanel>
+
+        <GroupBox  Header="Thông tin chuyển hàng" Background="SkyBlue" Margin="10 10 0 0">
+            <StackPanel x:Name="grbHang">
+                <ComboBox Name="cbTuyenDi" materialDesign:HintAssist.Hint="Chọn tuyến đi" Width="200" Margin="0 5"/>
+                <TextBox Name="tbTuyenDen" Text="{Binding SelectedItem.DiaDiemDen, ElementName=cbTuyenDi}" materialDesign:HintAssist.Hint="Tuyến đến" Height="25" Margin="0 5" IsReadOnly="True"/>
+                <TextBox Name="tbMaTuyen" Text="{Binding SelectedItem.MaTuyen, ElementName=cbTuyenDi}" materialDesign:HintAssist.Hint="Mã tuyến" Margin="0 5" IsReadOnly="True"/>
+                <TextBox Name="tbKg" materialDesign:HintAssist.Hint="Khối lượng" Margin="0 5"/>
+                <TextBox Name="tbLoaiHang" materialDesign:HintAssist.Hint="Loại hàng hóa" Margin="0 5"/>
+                <TextBox Name="tbTong" materialDesign:HintAssist.Hint="Tổng giá tiền" Margin="0 10"/>
+
+                <Button Content="Thanh toán" Margin="0,10" HorizontalAlignment="Center" VerticalAlignment="Center" Width="105" Height="Auto" Click="btnThanhToan" />
+                <Button Content="Nhập lại" Margin="0,10,0,0" HorizontalAlignment="Center" Width="105" Height="Auto" Click="btnRefresh"/>
+            </StackPanel>
+        </GroupBox>
+    </WrapPanel>
+</UserControl>
