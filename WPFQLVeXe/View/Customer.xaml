@@ -1,0 +1,61 @@
+﻿<Window x:Class="WPFQLVeXe.View.Customer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:WPFQLVeXe.View"
+        xmlns:view="clr-namespace:WPFQLVeXe.View"
+        
+        mc:Ignorable="d"
+        Title="Customer" Height="450" Width="800">
+    <materialDesign:DialogHost>
+        <materialDesign:DrawerHost IsLeftDrawerOpen="{Binding ElementName=MenuToggleButton, Path=IsChecked}">
+            <materialDesign:DrawerHost.LeftDrawerContent>
+                <DockPanel MinWidth="200" Background="#FF0097FF">
+                    <ToggleButton Style="{DynamicResource MaterialDesignHamburgerToggleButton}" 
+                               DockPanel.Dock="Top"
+                               HorizontalAlignment="Right" Margin="16"
+                               IsChecked="{Binding ElementName=MenuToggleButton, Path=IsChecked, Mode=TwoWay}" Foreground="White" />
+                    <StackPanel>
+                        <Border Background="{DynamicResource MaterialDesignDivider}" Height="1" HorizontalAlignment="Stretch" SnapsToDevicePixels="True" />
+                        <Button Content="Đặt Vé" HorizontalContentAlignment="Left" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="btnDatVe"/>
+
+                        <Border Background="{DynamicResource MaterialDesignDivider}" Height="1" HorizontalAlignment="Stretch" SnapsToDevicePixels="True" />
+                        <Button Content="Thông Tin Đặt Vé" HorizontalContentAlignment="Left" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="btnThongTinDatVe"/>
+
+                        <Border Background="{DynamicResource MaterialDesignDivider}" Height="1" HorizontalAlignment="Stretch" SnapsToDevicePixels="True" />
+                        <Button Content="Hàng Hóa" HorizontalContentAlignment="Left" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="btnHangHoa"/>
+
+                        <Border Background="{DynamicResource MaterialDesignDivider}" Height="1" HorizontalAlignment="Stretch" SnapsToDevicePixels="True" />
+                        <Button Content="Thông Tin Hàng Hóa" HorizontalContentAlignment="Left" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" Click="btnThongTinHangHoa"/>
+
+                        <Border Background="{DynamicResource MaterialDesignDivider}" Height="1" HorizontalAlignment="Stretch" SnapsToDevicePixels="True" />
+                    </StackPanel>
+                </DockPanel>
+            </materialDesign:DrawerHost.LeftDrawerContent>
+
+            <DockPanel>
+                <materialDesign:ColorZone Padding="5" materialDesign:ShadowAssist.ShadowDepth="Depth2"
+                                       Mode="PrimaryMid" DockPanel.Dock="Top" MouseDown="MouseDown">
+                    <DockPanel>
+                        <ToggleButton Style="{DynamicResource MaterialDesignHamburgerToggleButton}" IsChecked="False"
+                                     x:Name="MenuToggleButton"/>
+                        <materialDesign:PopupBox DockPanel.Dock="Right" PlacementMode="BottomAndAlignRightEdges" StaysOpen="False">
+                            <StackPanel>
+                                <Button Content="Thông Tin" Click="btnInfo"/>
+                                <Button Content="Đăng Xuất" Click="btnLogOut"/>
+                                <Separator/>
+                                <Button Content="Thoát" Click="btnClose"/>
+                            </StackPanel>
+                        </materialDesign:PopupBox>
+                        <TextBlock x:Name="txbContent"  HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="22">Quản lý hệ thống bán vé - Dành cho nhân viên</TextBlock>
+                    </DockPanel>
+                </materialDesign:ColorZone>
+                <Grid>
+                    <view:ViewSwitcher Margin="5"/>
+                </Grid>
+            </DockPanel>
+        </materialDesign:DrawerHost>
+    </materialDesign:DialogHost>
+</Window>
