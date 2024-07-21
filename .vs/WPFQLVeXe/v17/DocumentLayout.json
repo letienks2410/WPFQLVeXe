@@ -1,72 +1,91 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Workspace\\PRN192\\WPFQLVeXe\\",
+  "WorkspaceRootPath": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|d:\\workspace\\prn192\\wpfqlvexe\\wpfqlvexe\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\wpfqlvexe\\view\\qlphancong.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\view\\qlphancong.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\wpfqlvexe\\view\\quanli.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\view\\quanli.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\wpfqlvexe\\view\\dangnhap.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\view\\dangnhap.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\wpfqlvexe\\models\\banveentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\models\\banveentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\wpfqlvexe\\view\\qlphancong.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\view\\qlphancong.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\wpfqlvexe\\view\\customer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\view\\customer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\wpfqlvexe\\wpfqlvexe.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\wpfqlvexe.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\wpfqlvexe\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\wpfqlvexe\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|d:\\workspace\\prn192\\wpfqlvexe\\wpfqlvexe\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\wpfqlvexe\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Desktop\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|d:\\workspace\\prn192\\wpfqlvexe\\wpfqlvexe\\view\\dangnhap.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\view\\dangnhap.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|d:\\workspace\\prn192\\wpfqlvexe\\wpfqlvexe\\view\\customer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\view\\customer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|d:\\workspace\\prn192\\wpfqlvexe\\wpfqlvexe\\models\\banveentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\models\\banveentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|d:\\workspace\\prn192\\wpfqlvexe\\wpfqlvexe\\view\\quanli.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\view\\quanli.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|d:\\workspace\\prn192\\wpfqlvexe\\wpfqlvexe\\view\\quanli.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\wpfqlvexe\\view\\quanli.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\view\\quanli.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|d:\\workspace\\prn192\\wpfqlvexe\\wpfqlvexe\\view\\customer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\wpfqlvexe\\view\\customer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\view\\customer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|d:\\workspace\\prn192\\wpfqlvexe\\wpfqlvexe\\view\\viewswitcher.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\wpfqlvexe\\view\\viewswitcher.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\view\\viewswitcher.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|d:\\workspace\\prn192\\wpfqlvexe\\wpfqlvexe\\view\\viewswitcher.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\wpfqlvexe\\view\\viewswitcher.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\view\\viewswitcher.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|d:\\workspace\\prn192\\wpfqlvexe\\wpfqlvexe\\view\\blank.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\wpfqlvexe\\view\\blank.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\view\\blank.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|d:\\workspace\\prn192\\wpfqlvexe\\wpfqlvexe\\viewmodel\\iswitchable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\wpfqlvexe\\viewmodel\\iswitchable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\viewmodel\\iswitchable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|d:\\workspace\\prn192\\wpfqlvexe\\wpfqlvexe\\viewmodel\\switcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\wpfqlvexe\\viewmodel\\switcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\viewmodel\\switcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|d:\\workspace\\prn192\\wpfqlvexe\\wpfqlvexe\\view\\dangnhap.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\wpfqlvexe\\view\\dangnhap.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\view\\dangnhap.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|d:\\workspace\\prn192\\wpfqlvexe\\wpfqlvexe\\view\\blank.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\wpfqlvexe\\view\\blank.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\view\\blank.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|d:\\workspace\\prn192\\wpfqlvexe\\wpfqlvexe\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\wpfqlvexe\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFE1C785-C7B9-4966-93E1-44CCA21494D5}|WPFQLVeXe\\WPFQLVeXe.csproj|solutionrelative:wpfqlvexe\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -77,243 +96,312 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ResourcePart.cs",
-              "DocumentMoniker": "C:\\Users\\Desktop\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs",
-              "ToolTip": "C:\\Users\\Desktop\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs [Read Only]",
-              "ViewState": "AQIAABUAAAAAAAAAAAAuwCcAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T08:10:28.731Z",
-              "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BanVeEntities.cs",
-              "DocumentMoniker": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\Models\\BanVeEntities.cs",
-              "RelativeDocumentMoniker": "WPFQLVeXe\\Models\\BanVeEntities.cs",
-              "ToolTip": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\Models\\BanVeEntities.cs",
-              "RelativeToolTip": "WPFQLVeXe\\Models\\BanVeEntities.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T08:08:38.576Z",
+              "DocumentIndex": 3,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAHYUAAAAAAAAAAAcwIUUAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-07-21T09:44:50.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 20,
+              "Title": "Blank.xaml",
+              "DocumentMoniker": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\Blank.xaml",
+              "RelativeDocumentMoniker": "WPFQLVeXe\\View\\Blank.xaml",
+              "ToolTip": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\Blank.xaml",
+              "RelativeToolTip": "WPFQLVeXe\\View\\Blank.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-21T07:31:24.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "QuanLi.xaml.cs",
-              "DocumentMoniker": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\View\\QuanLi.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\QuanLi.xaml.cs",
               "RelativeDocumentMoniker": "WPFQLVeXe\\View\\QuanLi.xaml.cs",
-              "ToolTip": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\View\\QuanLi.xaml.cs",
+              "ToolTip": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\QuanLi.xaml.cs",
               "RelativeToolTip": "WPFQLVeXe\\View\\QuanLi.xaml.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAIwCYAAAAvAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAkwBcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T07:45:01.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Blank.xaml.cs",
-              "DocumentMoniker": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\View\\Blank.xaml.cs",
-              "RelativeDocumentMoniker": "WPFQLVeXe\\View\\Blank.xaml.cs",
-              "ToolTip": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\View\\Blank.xaml.cs",
-              "RelativeToolTip": "WPFQLVeXe\\View\\Blank.xaml.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAxwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T07:44:36.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ISwitchable.cs",
-              "DocumentMoniker": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\ViewModel\\ISwitchable.cs",
-              "RelativeDocumentMoniker": "WPFQLVeXe\\ViewModel\\ISwitchable.cs",
-              "ToolTip": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\ViewModel\\ISwitchable.cs",
-              "RelativeToolTip": "WPFQLVeXe\\ViewModel\\ISwitchable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T07:43:58.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Switcher.cs",
-              "DocumentMoniker": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\ViewModel\\Switcher.cs",
-              "RelativeDocumentMoniker": "WPFQLVeXe\\ViewModel\\Switcher.cs",
-              "ToolTip": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\ViewModel\\Switcher.cs",
-              "RelativeToolTip": "WPFQLVeXe\\ViewModel\\Switcher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T07:43:15.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Customer.xaml.cs",
-              "DocumentMoniker": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\View\\Customer.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\Customer.xaml.cs",
               "RelativeDocumentMoniker": "WPFQLVeXe\\View\\Customer.xaml.cs",
-              "ToolTip": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\View\\Customer.xaml.cs",
+              "ToolTip": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\Customer.xaml.cs",
               "RelativeToolTip": "WPFQLVeXe\\View\\Customer.xaml.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAIwC8AAAA3AAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwC8AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T07:37:07.051Z",
+              "WhenOpened": "2024-07-21T07:37:07.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaiKhoan.cs",
+              "DocumentMoniker": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\Models\\TaiKhoan.cs",
+              "RelativeDocumentMoniker": "WPFQLVeXe\\Models\\TaiKhoan.cs",
+              "ToolTip": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\Models\\TaiKhoan.cs",
+              "RelativeToolTip": "WPFQLVeXe\\Models\\TaiKhoan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T09:04:54.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QLPhanCong.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\QLPhanCong.xaml.cs",
+              "RelativeDocumentMoniker": "WPFQLVeXe\\View\\QLPhanCong.xaml.cs",
+              "ToolTip": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\QLPhanCong.xaml.cs",
+              "RelativeToolTip": "WPFQLVeXe\\View\\QLPhanCong.xaml.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwDwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T09:08:57.609Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ViewSwitcher.xaml.cs",
-              "DocumentMoniker": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\View\\ViewSwitcher.xaml.cs",
-              "RelativeDocumentMoniker": "WPFQLVeXe\\View\\ViewSwitcher.xaml.cs",
-              "ToolTip": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\View\\ViewSwitcher.xaml.cs",
-              "RelativeToolTip": "WPFQLVeXe\\View\\ViewSwitcher.xaml.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAADAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T07:39:06.546Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "QLPhanCong.xaml",
+              "DocumentMoniker": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\QLPhanCong.xaml",
+              "RelativeDocumentMoniker": "WPFQLVeXe\\View\\QLPhanCong.xaml",
+              "ToolTip": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\QLPhanCong.xaml",
+              "RelativeToolTip": "WPFQLVeXe\\View\\QLPhanCong.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-21T09:05:36.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "DangNhap.xaml.cs",
-              "DocumentMoniker": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\View\\DangNhap.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\DangNhap.xaml.cs",
               "RelativeDocumentMoniker": "WPFQLVeXe\\View\\DangNhap.xaml.cs",
-              "ToolTip": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\View\\DangNhap.xaml.cs",
+              "ToolTip": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\DangNhap.xaml.cs",
               "RelativeToolTip": "WPFQLVeXe\\View\\DangNhap.xaml.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAqwD4AAAAnAAAA",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAQwEEAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T07:29:47.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ViewSwitcher.xaml",
-              "DocumentMoniker": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\View\\ViewSwitcher.xaml",
-              "RelativeDocumentMoniker": "WPFQLVeXe\\View\\ViewSwitcher.xaml",
-              "ToolTip": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\View\\ViewSwitcher.xaml",
-              "RelativeToolTip": "WPFQLVeXe\\View\\ViewSwitcher.xaml",
+              "DocumentIndex": 4,
+              "Title": "BanVeEntities.cs",
+              "DocumentMoniker": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\Models\\BanVeEntities.cs",
+              "RelativeDocumentMoniker": "WPFQLVeXe\\Models\\BanVeEntities.cs",
+              "ToolTip": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\Models\\BanVeEntities.cs",
+              "RelativeToolTip": "WPFQLVeXe\\Models\\BanVeEntities.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA+wCMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T08:08:38.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Customer.xaml",
+              "DocumentMoniker": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\Customer.xaml",
+              "RelativeDocumentMoniker": "WPFQLVeXe\\View\\Customer.xaml",
+              "ToolTip": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\Customer.xaml",
+              "RelativeToolTip": "WPFQLVeXe\\View\\Customer.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-21T07:32:00.817Z",
+              "WhenOpened": "2024-07-21T07:30:48.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "QuanLi.xaml",
+              "DocumentMoniker": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\QuanLi.xaml",
+              "RelativeDocumentMoniker": "WPFQLVeXe\\View\\QuanLi.xaml",
+              "ToolTip": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\QuanLi.xaml",
+              "RelativeToolTip": "WPFQLVeXe\\View\\QuanLi.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-21T07:30:29.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WPFQLVeXe.csproj",
+              "DocumentMoniker": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\WPFQLVeXe.csproj",
+              "RelativeDocumentMoniker": "WPFQLVeXe\\WPFQLVeXe.csproj",
+              "ToolTip": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\WPFQLVeXe.csproj",
+              "RelativeToolTip": "WPFQLVeXe\\WPFQLVeXe.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAEwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-21T09:06:41.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "Blank.xaml",
-              "DocumentMoniker": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\View\\Blank.xaml",
-              "RelativeDocumentMoniker": "WPFQLVeXe\\View\\Blank.xaml",
-              "ToolTip": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\View\\Blank.xaml",
-              "RelativeToolTip": "WPFQLVeXe\\View\\Blank.xaml",
+              "Title": "ViewSwitcher.xaml",
+              "DocumentMoniker": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\ViewSwitcher.xaml",
+              "RelativeDocumentMoniker": "WPFQLVeXe\\View\\ViewSwitcher.xaml",
+              "ToolTip": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\ViewSwitcher.xaml",
+              "RelativeToolTip": "WPFQLVeXe\\View\\ViewSwitcher.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-21T07:31:24.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Customer.xaml",
-              "DocumentMoniker": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\View\\Customer.xaml",
-              "RelativeDocumentMoniker": "WPFQLVeXe\\View\\Customer.xaml",
-              "ToolTip": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\View\\Customer.xaml",
-              "RelativeToolTip": "WPFQLVeXe\\View\\Customer.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-21T07:30:48.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "QuanLi.xaml",
-              "DocumentMoniker": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\View\\QuanLi.xaml",
-              "RelativeDocumentMoniker": "WPFQLVeXe\\View\\QuanLi.xaml",
-              "ToolTip": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\View\\QuanLi.xaml",
-              "RelativeToolTip": "WPFQLVeXe\\View\\QuanLi.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-21T07:30:29.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T07:32:00.817Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "ViewSwitcher.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\ViewSwitcher.xaml.cs",
+              "RelativeDocumentMoniker": "WPFQLVeXe\\View\\ViewSwitcher.xaml.cs",
+              "ToolTip": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\ViewSwitcher.xaml.cs",
+              "RelativeToolTip": "WPFQLVeXe\\View\\ViewSwitcher.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAADAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T07:39:06.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "DangNhap.xaml",
-              "DocumentMoniker": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\View\\DangNhap.xaml",
+              "DocumentMoniker": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\DangNhap.xaml",
               "RelativeDocumentMoniker": "WPFQLVeXe\\View\\DangNhap.xaml",
-              "ToolTip": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\View\\DangNhap.xaml",
+              "ToolTip": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\DangNhap.xaml",
               "RelativeToolTip": "WPFQLVeXe\\View\\DangNhap.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-21T07:29:42.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T07:29:42.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "App.xaml",
-              "DocumentMoniker": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\App.xaml",
               "RelativeDocumentMoniker": "WPFQLVeXe\\App.xaml",
-              "ToolTip": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\App.xaml",
+              "ToolTip": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\App.xaml",
               "RelativeToolTip": "WPFQLVeXe\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-21T07:24:21.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T07:24:21.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "WPFQLVeXe\\MainWindow.xaml",
-              "ToolTip": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\MainWindow.xaml",
-              "RelativeToolTip": "WPFQLVeXe\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-21T07:22:00.695Z",
-              "EditorCaption": ""
+              "DocumentIndex": 18,
+              "Title": "Switcher.cs",
+              "DocumentMoniker": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\ViewModel\\Switcher.cs",
+              "RelativeDocumentMoniker": "WPFQLVeXe\\ViewModel\\Switcher.cs",
+              "ToolTip": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\ViewModel\\Switcher.cs",
+              "RelativeToolTip": "WPFQLVeXe\\ViewModel\\Switcher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T07:43:15.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ISwitchable.cs",
+              "DocumentMoniker": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\ViewModel\\ISwitchable.cs",
+              "RelativeDocumentMoniker": "WPFQLVeXe\\ViewModel\\ISwitchable.cs",
+              "ToolTip": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\ViewModel\\ISwitchable.cs",
+              "RelativeToolTip": "WPFQLVeXe\\ViewModel\\ISwitchable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T07:43:58.607Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "Blank.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\Blank.xaml.cs",
+              "RelativeDocumentMoniker": "WPFQLVeXe\\View\\Blank.xaml.cs",
+              "ToolTip": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\View\\Blank.xaml.cs",
+              "RelativeToolTip": "WPFQLVeXe\\View\\Blank.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T07:44:36.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ResourcePart.cs",
+              "DocumentMoniker": "C:\\Users\\Desktop\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs",
+              "ToolTip": "C:\\Users\\Desktop\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs [Read Only]",
+              "ViewState": "AQIAABUAAAAAAAAAAAAuwCcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T08:10:28.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPFQLVeXe\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\MainWindow.xaml",
+              "RelativeToolTip": "WPFQLVeXe\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-21T07:22:00.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WPFQLVeXe\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Workspace\\PRN192\\WPFQLVeXe\\WPFQLVeXe\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\satth\\Documents\\GitHub2\\WPFQLVeXe\\WPFQLVeXe\\MainWindow.xaml.cs",
               "RelativeToolTip": "WPFQLVeXe\\MainWindow.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T07:21:56.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T07:21:56.309Z"
             }
           ]
         }

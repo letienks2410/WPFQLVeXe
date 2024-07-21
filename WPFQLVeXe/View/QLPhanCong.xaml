@@ -1,0 +1,125 @@
+﻿<UserControl x:Class="WPFQLVeXe.View.QLPhanCong"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:local="clr-namespace:WPFQLVeXe.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <GroupBox x:Name="gpbTaiXe" Header="Tài Xế" Grid.Column="1" Grid.Row="0">
+            <StackPanel HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel>
+                        <Label Content="Mã"/>
+                        <Label Content="Tên"/>
+                    </StackPanel>
+
+                    <StackPanel Margin="10,0,0,0">
+                        <TextBox x:Name="tbMaTX" Text="{Binding SelectedItem.MaNV, ElementName=dtgTX}" Width="150"/>
+                        <TextBox x:Name="tbTenTX" Text="{Binding SelectedItem.TenNv, ElementName=dtgTX}"/>
+                    </StackPanel>
+                </StackPanel>
+                <Button Content="Xóa" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="Auto" Margin="0,5,0,0" Click="btnTX"/>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox x:Name="gpbPhuXe" Header="Phụ Xe" Grid.Column="2" Grid.Row="0">
+            <StackPanel HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel HorizontalAlignment="Left">
+                        <Label Content="Mã"/>
+                        <Label Content="Tên"/>
+                    </StackPanel>
+
+                    <StackPanel HorizontalAlignment="Right">
+                        <TextBox x:Name="tbMaPX" Text="{Binding SelectedItem.MaNV, ElementName=dtgPX}" Width="150"/>
+                        <TextBox x:Name="tbTenPX" Text="{Binding SelectedItem.TenNv, ElementName=dtgPX}"/>
+                    </StackPanel>
+                </StackPanel>
+                <Button Content="Xóa" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,5,0,0" Height="Auto" Click="btnPX"/>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox x:Name="gpbTuyenXe" Header="Tuyến Xe" Grid.Column="0" Grid.Row="0">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <StackPanel HorizontalAlignment="Left">
+                    <Label Content="Mã"/>
+                    <Label Content="Từ"/>
+                    <Label Content="Đến"/>
+                </StackPanel>
+
+                <StackPanel HorizontalAlignment="Right">
+                    <TextBox x:Name="tbMaTXe" Text="{Binding SelectedItem.MaTuyen, ElementName=dtgTuyenXePC}" Width="150"/>
+                    <TextBox x:Name="tbTu" Text="{Binding SelectedItem.DiaDiemDi, ElementName=dtgTuyenXePC}"/>
+                    <TextBox x:Name="tbDen" Text="{Binding SelectedItem.DiaDiemDen, ElementName=dtgTuyenXePC}"/>
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+
+        <StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Height="40">
+            <Button Content="Lưu" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Margin="0,0,200,0" Height="Auto" Click="btnSave"/>
+            <Button Content="Xóa" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" Margin="0" Height="26.5" Click="btnDelete"/>
+        </StackPanel>
+
+        <Grid Grid.Row="1" Grid.Column="1" Margin="0,0,5,0">
+            <DataGrid x:Name="dtgTX" Loaded="dtgTX_Loaded" AutoGenerateColumns="False" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding MaNV, NotifyOnTargetUpdated=True, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Header="Mã"/>
+                    <DataGridTextColumn Binding="{Binding TenNv, NotifyOnTargetUpdated=True, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Header="Tên"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="2" Margin="0,0,5,0">
+            <DataGrid x:Name="dtgPX" Loaded="dtgPX_Loaded" AutoGenerateColumns="False" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding MaNV, NotifyOnTargetUpdated=True, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Header="Mã"/>
+                    <DataGridTextColumn Binding="{Binding TenNv, NotifyOnTargetUpdated=True, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Header="Tên"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="0">
+            <DataGrid x:Name="dtgTuyenXePC" Loaded="dtgTuyenXePC_Loaded" AutoGenerateColumns="False" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding MaTuyen, NotifyOnTargetUpdated=True, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Header="Mã"/>
+                    <DataGridTextColumn Binding="{Binding DiaDiemDi, NotifyOnTargetUpdated=True, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Header="Nơi đi"/>
+                    <DataGridTextColumn Binding="{Binding DiaDiemDen, NotifyOnTargetUpdated=True, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Header="Nơi đến"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+
+        <DataGrid x:Name="dtgPhanCong" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" Loaded="dtgPhanCong_Loaded" AutoGenerateColumns="False" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Style="{StaticResource MaterialDesignFloatingActionMiniButton}"
+                                        ToolTip="Xóa nhân viên" Click="deletePhanCong" Height="25" Width="25">
+                                <materialDesign:PackIcon Kind="DeleteForever" Height="20" Width="20" />
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Binding="{Binding MaTuyen, NotifyOnTargetUpdated=True, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Header="Mã Tuyến"/>
+                <DataGridTextColumn Binding="{Binding NgayDi, StringFormat=dd/MM/yyyy, NotifyOnTargetUpdated=True, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Header="Ngày đi"/>
+                <DataGridTextColumn Binding="{Binding MaNV, NotifyOnTargetUpdated=True, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Header="Mã tài xế"/>
+                <DataGridTextColumn Binding="{Binding MaPX, NotifyOnTargetUpdated=True, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Header="Mã phụ xe"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>
