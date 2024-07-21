@@ -1,0 +1,78 @@
+﻿<UserControl x:Class="WPFQLVeXe.View.NVDatVe"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:local="clr-namespace:WPFQLVeXe.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Loaded="LoadedDatVe">
+    <StackPanel>
+        <WrapPanel Margin="0,20,0,0">
+            <StackPanel>
+                <Label>Tuyến đi</Label>
+                <Label>Ngày đi</Label>
+                <Label>Thời gian đi</Label>
+                <Label>Mã tuyến</Label>
+            </StackPanel>
+
+            <StackPanel Margin="20,0,0,0">
+                <ComboBox x:Name="cbTuyenDi" Width="120" Height="25" SelectionChanged="cbTuyenDi_SelectionChanged"/>
+                <ComboBox x:Name="cbNgayDi" ItemStringFormat="{}{0:dd/MM/yyyy}" Width="120" Height="25"/>
+                <TextBox x:Name="tbGioDi" Text="{Binding SelectedItem.GioDi, ElementName=cbTuyenDi}" IsReadOnly="True" Width="120" Height="25"/>
+                <TextBox x:Name="tbMaTuyen" Text="{Binding SelectedItem.MaTuyen, ElementName=cbTuyenDi}" IsReadOnly="True" Width="120" Height="25"/>
+            </StackPanel>
+
+            <StackPanel Margin="20,0,0,0">
+                <Label>Tuyến đến</Label>
+                <Label>Ngày đến</Label>
+                <Label>Thời gian đến</Label>
+                <Label>Số xe</Label>
+            </StackPanel>
+
+            <StackPanel Margin="20,0,0,0">
+                <TextBox x:Name="tbDiemDen" Text="{Binding SelectedItem.DiaDiemDen, ElementName=cbTuyenDi}" Width="120" Height="25" IsReadOnly="True"/>
+                <TextBox x:Name="tbNgayDen" Text="{Binding SelectedItem.NgayDen, ElementName=cbNgayDi, StringFormat=dd/MM/yyyy}" Width="120" Height="25" IsReadOnly="True"/>
+                <TextBox x:Name="tbGioDen" Text="{Binding SelectedItem.GioDen, ElementName=cbTuyenDi}" Width="120" Height="25" IsReadOnly="True"/>
+                <TextBox x:Name="tbSoXe" Text="{Binding SelectedItem.SoXe, ElementName=cbNgayDi}" Width="120" Height="25" IsReadOnly="True"/>
+            </StackPanel>
+        </WrapPanel>
+
+        <WrapPanel>
+            <StackPanel>
+                <GroupBox Header="Thông tin khách hàng">
+                    <WrapPanel >
+                        <StackPanel>
+                            <Label>Họ tên</Label>
+                            <Label>CMND</Label>
+                            <Label>Địa chỉ</Label>
+                            <Label>Số điện thoại</Label>
+                        </StackPanel>
+
+                        <StackPanel x:Name="stpCustomer" Margin="10,0,0,0" >
+                            <TextBox x:Name="tbTenKH" Width="120" Height="25"/>
+                            <TextBox x:Name="tbCMND" Width="120" Height="25"/>
+                            <TextBox x:Name="tbDiaChi" Width="120" Height="25"/>
+                            <TextBox x:Name="tbSDT" Width="120" Height="25"/>
+                        </StackPanel>
+                    </WrapPanel>
+                </GroupBox>
+            </StackPanel>
+
+            <StackPanel>
+                <GroupBox Header="Danh sách ghế ngồi" Width="200" Margin="5,0,0,0" Height="155">
+                    <StackPanel>
+                        <Button Content="Tải danh sách" Click="btnLoad"/>
+                        <ComboBox x:Name="cbGhe" ItemsSource="{Binding}" Width="120" Height="25"/>
+                        <TextBox x:Name="tbGiaVe" materialDesign:HintAssist.Hint="Nhập giá vé" Width="120" Height="25"/>
+                    </StackPanel>
+                </GroupBox>
+            </StackPanel>
+        </WrapPanel>
+        
+        <WrapPanel Margin="0,20,0,0">
+            <Button Click="btnThanhToan">Thanh toán</Button>
+            <Button Margin="50,0,0,0">Quay lại</Button>
+        </WrapPanel>
+    </StackPanel>
+</UserControl>

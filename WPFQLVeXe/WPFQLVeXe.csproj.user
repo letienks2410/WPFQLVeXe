@@ -36,6 +36,12 @@
     <Page Update="View\DangNhap.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="View\NVDatVe.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\NVThongTinDatVe.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="View\QLPhanCong.xaml">
       <SubType>Designer</SubType>
     </Page>

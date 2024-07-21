@@ -1,0 +1,105 @@
+﻿<UserControl x:Class="WPFQLVeXe.View.NVThongTinDatVe"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFQLVeXe.View"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Loaded="dtgVeLoaded">
+    <StackPanel>
+        <WrapPanel Height="50" Margin="20">
+            <materialDesign:ColorZone Grid.Row="1" Mode="PrimaryMid" Padding="8 4 8 4" CornerRadius="2" Panel.ZIndex="1"
+                                  Margin="16 0 16 0"
+                                  materialDesign:ShadowAssist.ShadowDepth="Depth3">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Style="{DynamicResource MaterialDesignToolButton}" ToolTip="Tìm" Click="btnSearch">
+                        <materialDesign:PackIcon Kind="Magnify" Opacity=".56" />
+                    </Button>
+                    
+                    <TextBox x:Name="tbSearch" Grid.Column="1" 
+                         Margin="8 0 0 0" materialDesign:HintAssist.Hint="Tìm kiếm vé" 
+                         materialDesign:TextFieldAssist.DecorationVisibility="Hidden" BorderThickness="0"
+                         Width="400" VerticalAlignment="Center" PreviewKeyDown="EnterKey" />
+                    
+                    <Button Grid.Column="2" Style="{DynamicResource MaterialDesignToolForegroundButton}" ToolTip="Xem danh sách vé" Margin="8 0 0 0" Panel.ZIndex="0" Click="btnClear">
+                        <materialDesign:PackIcon Kind="Close"/>
+                    </Button>
+                </Grid>
+            </materialDesign:ColorZone>
+        </WrapPanel>
+        <WrapPanel>
+            <StackPanel>
+                <GroupBox Header="Thông tin khách hàng" Width="280">
+                    <WrapPanel>
+                        <StackPanel>
+                            <Label>Tên khách hàng</Label>
+                            <Label>CMND</Label>
+                            <Label>Địa chỉ</Label>
+                            <Label>Số điện thoại</Label>
+                        </StackPanel>
+                        <StackPanel>
+                            <TextBox x:Name="tbTen" Height="25" Width="150" IsReadOnly="True"></TextBox>
+                            <TextBox x:Name="tbCMND" Height="25"  Width="150" IsReadOnly="True"></TextBox>
+                            <TextBox x:Name="tbDiaChi" Height="25" Width="150" IsReadOnly="True"></TextBox>
+                            <TextBox x:Name="tbSDT" Height="25" Width="150" IsReadOnly="True"></TextBox>
+                        </StackPanel>
+                    </WrapPanel>
+                </GroupBox>
+            </StackPanel>
+            <StackPanel>
+                <GroupBox Header="Thông tin đặt vé">
+                    <WrapPanel>
+                        <StackPanel>
+                            <Label>Mã tuyến</Label>
+                            <Label>Địa điểm đi</Label>
+                            <Label>Ngày đi</Label>
+                            <Label>Giờ đi</Label>
+                        </StackPanel>
+                        <StackPanel>
+                            <TextBox x:Name="tbMaTuyen"  Height="25" Width="80" IsReadOnly="True"></TextBox>
+                            <TextBox x:Name="tbTuyenDi"  Height="25" Width="80" IsReadOnly="True"></TextBox>
+                            <TextBox x:Name="tbNgayDi"  Height="25" Width="80" IsReadOnly="True"></TextBox>
+                            <TextBox x:Name="tbGioDi"  Height="25" Width="80" IsReadOnly="True"></TextBox>
+                        </StackPanel>
+                        <StackPanel>
+                            <Label>Vị trí ghế</Label>
+                            <Label>Địa điểm đến</Label>
+                            <Label>Ngày đến</Label>
+                            <Label>Giờ đến</Label>
+                        </StackPanel>
+                        <StackPanel>
+                            <TextBox x:Name="tbGhe"  Height="25" Width="80" IsReadOnly="True"></TextBox>
+                            <TextBox x:Name="tbTuyenDen"  Height="25" Width="80" IsReadOnly="True"></TextBox>
+                            <TextBox x:Name="tbNgayDen"  Height="25" Width="80" IsReadOnly="True"></TextBox>
+                            <TextBox x:Name="tbGioDen"  Height="25" Width="80" IsReadOnly="True"></TextBox>
+                        </StackPanel>
+                    </WrapPanel>
+                </GroupBox>
+            </StackPanel>
+            <StackPanel Margin="10">
+                <Button Height="30" Width="80" Click="btnUpdate">Sửa</Button>
+                <Button Height="30" Width="80" Click="btnSave" Margin="0,10,0,0">Lưu</Button>
+            </StackPanel>
+        </WrapPanel>
+        <Grid Margin="0,20,0,0" Height="280">
+            <DataGrid x:Name="dtgVe" ItemsSource="{Binding}" AutoGenerateColumns="False" IsReadOnly="True" SelectionChanged="dtgVe_SelectionChanged">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Mã vé" Binding="{Binding MaVe, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn Header="Mã khách hàng" Binding="{Binding MaKh, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn Header="Ngày đi" Binding="{Binding NgayDi, StringFormat=dd/MM/yyyy, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn Header="Giờ đi" Binding="{Binding GioDi, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn Header="Vị trí ghế" Binding="{Binding MaGhe, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn Header="Số xe" Binding="{Binding SoXe, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn Header="Giá vé" Binding="{Binding GiaVe, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </StackPanel>
+</UserControl>

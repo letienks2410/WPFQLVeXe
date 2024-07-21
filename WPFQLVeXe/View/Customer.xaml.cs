@@ -12,6 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using WPFQLVeXe.ViewModel;
 
 namespace WPFQLVeXe.View
 {
@@ -26,8 +27,8 @@ namespace WPFQLVeXe.View
         }
         private void btnDatVe(object sender, RoutedEventArgs e)
         {
-            //txbContent.Text = "Đặt vé";
-            //Switcher.Switch(new NVDatVe());
+            txbContent.Text = "Đặt vé";
+            Switcher.Switch(new NVDatVe());
         }
 
         private void btnHangHoa(object sender, RoutedEventArgs e)
@@ -38,8 +39,8 @@ namespace WPFQLVeXe.View
 
         private void btnThongTinDatVe(object sender, RoutedEventArgs e)
         {
-            //txbContent.Text = "Thông tin vé";
-            //Switcher.Switch(new NVThongTinDatVe());
+            txbContent.Text = "Thông tin vé";
+            Switcher.Switch(new NVThongTinDatVe());
         }
 
         private void btnThongTinHangHoa(object sender, RoutedEventArgs e)
