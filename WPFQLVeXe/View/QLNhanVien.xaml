@@ -1,0 +1,82 @@
+﻿<UserControl x:Class="QuanLyVe.View.QLNhanVien"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:QuanLyVe.View"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Loaded="UserControl_Loaded">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <materialDesign:ColorZone Grid.Row="0" Mode="PrimaryMid" Padding="8 4 8 4" CornerRadius="2" Panel.ZIndex="1"
+                                  Margin="10"
+                                  materialDesign:ShadowAssist.ShadowDepth="Depth3" Width="400">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <Button Style="{DynamicResource MaterialDesignToolButton}" ToolTip="Tìm" Click="btnSearch">
+                    <materialDesign:PackIcon Kind="Magnify" Opacity=".56" />
+                </Button>
+
+                <TextBox x:Name="tbSearch" Grid.Column="1" 
+                         Margin="8 0 0 0" materialDesign:HintAssist.Hint="Tìm kiếm theo tên nhân viên" 
+                         materialDesign:TextFieldAssist.DecorationVisibility="Hidden" BorderThickness="0"
+                         Width="400" VerticalAlignment="Center" PreviewKeyDown="EnterKey" />
+
+                <Button Grid.Column="2" Style="{DynamicResource MaterialDesignToolForegroundButton}" Margin="8 0 0 0" Panel.ZIndex="0" Click="btnClear">
+                    <materialDesign:PackIcon Kind="Close"/>
+                </Button>
+            </Grid>
+        </materialDesign:ColorZone>
+
+        <StackPanel Grid.Row="1" Width="400" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
+            <StackPanel x:Name="stpNV" Width="300">
+                <TextBox x:Name="tbMaNV" Text="{Binding SelectedItem.MaNV, ElementName=dtgNhanVien}" materialDesign:HintAssist.Hint="Mã nhân viên" Margin="0,5" IsReadOnly="True"/>
+                <TextBox x:Name="tbTenNv" Text="{Binding SelectedItem.TenNV, ElementName=dtgNhanVien}" materialDesign:HintAssist.Hint="Họ và tên" Margin="0,5" IsReadOnly="True"/>
+                <DatePicker x:Name="dpNgaySinh" Text="{Binding SelectedItem.NgaySinh, StringFormat=dd/MM/yyyy, ElementName=dtgNhanVien}" materialDesign:HintAssist.Hint="Ngày sinh" Margin="0,5"/>
+                <TextBox x:Name="tbCMND" Text="{Binding SelectedItem.CMND, ElementName=dtgNhanVien}" materialDesign:HintAssist.Hint="CMND" Margin="0,5" IsReadOnly="True"/>
+                <TextBox x:Name="tbDiaChi" Text="{Binding SelectedItem.DiaChi, ElementName=dtgNhanVien}" materialDesign:HintAssist.Hint="Địa chỉ" Margin="0,5" IsReadOnly="True"/>
+                <TextBox x:Name="tbSDT" Text="{Binding SelectedItem.SDT, ElementName=dtgNhanVien}" materialDesign:HintAssist.Hint="Số điện thoại" Margin="0,5" IsReadOnly="True"/>
+                <ComboBox x:Name="cbLoaiNV" Text="{Binding SelectedItem.LoaiNvNavigation.TenLoai, ElementName=dtgNhanVien}" materialDesign:HintAssist.Hint="Loại nhân viên" Margin="0,5" IsReadOnly="True"/>
+            </StackPanel>
+
+            <StackPanel Margin="10,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button Content="Thêm" Margin="0,10,0,5" Click="btnAdd"/>
+                <Button Content="Sửa" Margin="0,10,0,5" Click="btnUpdate"/>
+                <Button Content="Lưu" Margin="0,5" Click="btnSave"/>
+            </StackPanel>
+        </StackPanel>
+
+        <DataGrid x:Name="dtgNhanVien" Grid.Row="2" AutoGenerateColumns="False" IsReadOnly="True" ItemsSource="{Binding}">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Style="{StaticResource MaterialDesignFloatingActionMiniButton}"
+                                        ToolTip="Xóa nhân viên" Click="deleteCustomer" Height="25" Width="25">
+                                <materialDesign:PackIcon Kind="DeleteForever" Height="20" Width="20" />
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Binding="{Binding MaNV, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Mã NV"/>
+                <DataGridTextColumn Binding="{Binding TenNV, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Tên NV" MinWidth="40"/>
+                <DataGridTextColumn Binding="{Binding NgaySinh, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Ngày sinh"/>
+                <DataGridTextColumn Binding="{Binding CMND, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="CMND"/>
+                <DataGridTextColumn Binding="{Binding DiaChi, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Địa chỉ"/>
+                <DataGridTextColumn Binding="{Binding SDT, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="SDT"/>
+                <DataGridTextColumn Binding="{Binding  LoaiNvNavigation.TenLoai, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Loại NV"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>
