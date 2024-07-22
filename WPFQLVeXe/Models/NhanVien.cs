@@ -9,7 +9,7 @@ public partial class NhanVien
 
     public string? TenNv { get; set; }
 
-    public DateOnly? NgaySinh { get; set; }
+    public DateTime? NgaySinh { get; set; }
 
     public string? Cmnd { get; set; }
 
