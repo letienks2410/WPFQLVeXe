@@ -7,7 +7,7 @@ using System;
 using System.Windows.Input;
 using Microsoft.EntityFrameworkCore;
 
-namespace QuanLyVe.View
+namespace WPFQLVeXe.View
 {
     /// <summary>
     /// Interaction logic for QLNhanVien.xaml

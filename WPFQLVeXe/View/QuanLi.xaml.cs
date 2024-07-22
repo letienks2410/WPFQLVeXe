@@ -26,17 +26,17 @@ namespace WPFQLVeXe.View
         }
         private void btnNhanVien(object sender, RoutedEventArgs e)
         {
-            //Switcher.Switch(new QLNhanVien());
+            Switcher.Switch(new QLNhanVien());
         }
 
         private void btnPhanCong(object sender, RoutedEventArgs e)
         {
-            //Switcher.Switch(new QLPhanCong());
+            Switcher.Switch(new QLPhanCong());
         }
 
         private void btnThongKe(object sender, RoutedEventArgs e)
         {
-            //Switcher.Switch(new QLThongKe());
+            Switcher.Switch(new QLThongKe());
         }
 
         private void btnInfo(object sender, RoutedEventArgs e)
