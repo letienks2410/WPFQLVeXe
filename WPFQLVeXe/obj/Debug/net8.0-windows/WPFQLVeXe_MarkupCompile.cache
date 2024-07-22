@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Desktop\Documents\GitHub\WPFQLVeXe\WPFQLVeXe\obj\Debug\net8.0-windows\
+E:\PRN211\WebQLVexe\WPFQLVeXe\WPFQLVeXe\obj\Debug\net8.0-windows\
 WPFQLVeXe
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\Desktop\Documents\GitHub\WPFQLVeXe\WPFQLVeXe\App.xaml
-91138800938
+E:\PRN211\WebQLVexe\WPFQLVeXe\WPFQLVeXe\App.xaml
+1226312092
 
-30799519916
-240-733594528
-MainWindow.xaml;View\Blank.xaml;View\Customer.xaml;View\DangNhap.xaml;View\NVHangHoa.xaml;View\NVThongTinHangHoa.xaml;View\QLPhanCong.xaml;View\QuanLi.xaml;View\ViewSwitcher.xaml;
+371617022652
+2401102418338
+MainWindow.xaml;View\Blank.xaml;View\Customer.xaml;View\DangNhap.xaml;View\NVDatVe.xaml;View\NVHangHoa.xaml;View\NVThongTinDatVe.xaml;View\NVThongTinHangHoa.xaml;View\QLPhanCong.xaml;View\QLThongKe.xaml;View\QuanLi.xaml;View\ViewSwitcher.xaml;
 
 False
 

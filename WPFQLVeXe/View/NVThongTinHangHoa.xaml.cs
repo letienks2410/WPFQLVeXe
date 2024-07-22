@@ -1,18 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using System.Collections.ObjectModel;
 using WPFQLVeXe.Models;
 
 namespace WPFQLVeXe.View
@@ -25,8 +16,8 @@ namespace WPFQLVeXe.View
         public NVThongTinHangHoa()
         {
             InitializeComponent();
-            UserControl_Loaded();
         }
+
         BanVeEntities db = new BanVeEntities();
         private ObservableCollection<HangHoa> getHangHoa()
         {
@@ -138,7 +129,7 @@ namespace WPFQLVeXe.View
                 var question = MessageBox.Show("Lưu thông tin khách hàng?", "Xác nhận", MessageBoxButton.YesNo, MessageBoxImage.Question);
                 if (question == MessageBoxResult.Yes)
                 {
-                    KhachHang _sender = db.KhachHangs.FirstOrDefault(n => n.MaKh == selected.NguoiGui);
+                    KhachHang _sender = db.KhachHangs.Find(selected.NguoiGui);
                     // thay doi nguoi gui
                     _sender.TenKh = tbGui.Text;
                     _sender.Cmnd = tbGuiCMND.Text;
@@ -148,7 +139,7 @@ namespace WPFQLVeXe.View
                     db.SaveChanges();
 
                     //thay doi nguoi nhan
-                    KhachHang _receiver = db.KhachHangs.FirstOrDefault(n => n.MaKh == selected.NguoiNhan);
+                    KhachHang _receiver = db.KhachHangs.Find(selected.NguoiGui);
                     // thay doi nguoi gui
                     _receiver.TenKh = tbNhan.Text;
                     _receiver.Cmnd = tbNhanCMND.Text;
@@ -162,7 +153,7 @@ namespace WPFQLVeXe.View
             }
         }
 
-        private void UserControl_Loaded()
+        private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
             dtgHang.ItemsSource = getHangHoa();
         }

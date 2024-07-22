@@ -20,7 +20,7 @@ public partial class BanVeEntities : DbContext
     public virtual DbSet<HangHoa> HangHoas { get; set; }
 
     public virtual DbSet<HinhThuc> HinhThucs { get; set; }
-
+    
     public virtual DbSet<HoaDonHh> HoaDonHhs { get; set; }
 
     public virtual DbSet<HoaDonVe> HoaDonVes { get; set; }
@@ -45,10 +45,11 @@ public partial class BanVeEntities : DbContext
 
     public virtual DbSet<XeKhach> XeKhaches { get; set; }
 
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
 
-        => optionsBuilder.UseSqlServer("Server=(local);Database=quanlibanve;Uid=sa;Pwd=Letienks1@;TrustServerCertificate=True");
+        => optionsBuilder.UseSqlServer("Server=(local);Database=quanlibanve;Uid=sa;Pwd=123;TrustServerCertificate=True");
 
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -143,7 +144,7 @@ public partial class BanVeEntities : DbContext
             entity.Property(e => e.MaKh)
                 .HasMaxLength(10)
                 .IsUnicode(false)
-                .HasColumnName("MaKH");
+                .HasColumnName("MaKh");
 
             entity.HasOne(d => d.MaHhNavigation).WithMany(p => p.HoaDonHhs)
                 .HasForeignKey(d => d.MaHh)
@@ -190,7 +191,7 @@ public partial class BanVeEntities : DbContext
             entity.Property(e => e.MaKh)
                 .HasMaxLength(10)
                 .IsUnicode(false)
-                .HasColumnName("MaKH");
+                .HasColumnName("MaKh");
             entity.Property(e => e.Cmnd)
                 .HasMaxLength(15)
                 .IsUnicode(false)
@@ -221,6 +222,9 @@ public partial class BanVeEntities : DbContext
             entity.Property(e => e.MaTuyen)
                 .HasMaxLength(10)
                 .IsUnicode(false);
+            entity.Property(e => e.NgayDi).HasColumnType("date");
+
+            entity.Property(e => e.NgayDen).HasColumnType("date");
             entity.Property(e => e.SoXe)
                 .HasMaxLength(15)
                 .IsUnicode(false);
@@ -275,7 +279,7 @@ public partial class BanVeEntities : DbContext
             entity.Property(e => e.BiXoa)
                 .HasMaxLength(10)
                 .IsUnicode(false);
-            entity.Property(e => e.Cmnd)
+            entity.Property(e => e.CMND)
                 .HasMaxLength(15)
                 .IsUnicode(false)
                 .HasColumnName("CMND");
@@ -284,7 +288,7 @@ public partial class BanVeEntities : DbContext
                 .HasMaxLength(10)
                 .IsUnicode(false)
                 .HasColumnName("LoaiNV");
-            entity.Property(e => e.Sdt)
+            entity.Property(e => e.SDT)
                 .HasMaxLength(15)
                 .IsUnicode(false)
                 .HasColumnName("SDT");
@@ -314,6 +318,7 @@ public partial class BanVeEntities : DbContext
                 .HasMaxLength(10)
                 .IsUnicode(false)
                 .HasColumnName("MaPX");
+            entity.Property(e => e.NgayDi).HasColumnType("date");
 
             entity.HasOne(d => d.MaTuyenNavigation).WithOne(p => p.PhanCong)
                 .HasForeignKey<PhanCong>(d => d.MaTuyen)

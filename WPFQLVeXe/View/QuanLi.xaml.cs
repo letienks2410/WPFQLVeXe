@@ -36,7 +36,7 @@ namespace WPFQLVeXe.View
 
         private void btnThongKe(object sender, RoutedEventArgs e)
         {
-            //Switcher.Switch(new QLThongKe());
+            Switcher.Switch(new QLThongKe());
         }
 
         private void btnInfo(object sender, RoutedEventArgs e)
