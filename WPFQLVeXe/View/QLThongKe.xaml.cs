@@ -4,7 +4,7 @@ using System.Linq;
 using System.Windows.Controls;
 using QuanLyVe.ViewModel;
 
-namespace QuanLyVe.View
+namespace WPFQLVeXe.View
 {
     /// <summary>
     /// Interaction logic for QLThongKe.xaml

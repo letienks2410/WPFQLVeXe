@@ -1,9 +1,9 @@
-﻿<UserControl x:Class="QuanLyVe.View.QLNhanVien"
+﻿<UserControl x:Class="WPFQLVeXe.View.QLNhanVien"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:QuanLyVe.View"
+             xmlns:local="clr-namespace:WPFQLVeXe.View"
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300" Loaded="UserControl_Loaded">
@@ -41,12 +41,12 @@
 
         <StackPanel Grid.Row="1" Width="400" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
             <StackPanel x:Name="stpNV" Width="300">
-                <TextBox x:Name="tbMaNV" Text="{Binding SelectedItem.MaNV, ElementName=dtgNhanVien}" materialDesign:HintAssist.Hint="Mã nhân viên" Margin="0,5" IsReadOnly="True"/>
-                <TextBox x:Name="tbTenNv" Text="{Binding SelectedItem.TenNV, ElementName=dtgNhanVien}" materialDesign:HintAssist.Hint="Họ và tên" Margin="0,5" IsReadOnly="True"/>
+                <TextBox x:Name="tbMaNV" Text="{Binding SelectedItem.MaNv, ElementName=dtgNhanVien}" materialDesign:HintAssist.Hint="Mã nhân viên" Margin="0,5" IsReadOnly="True"/>
+                <TextBox x:Name="tbTenNv" Text="{Binding SelectedItem.TenNv, ElementName=dtgNhanVien}" materialDesign:HintAssist.Hint="Họ và tên" Margin="0,5" IsReadOnly="True"/>
                 <DatePicker x:Name="dpNgaySinh" Text="{Binding SelectedItem.NgaySinh, StringFormat=dd/MM/yyyy, ElementName=dtgNhanVien}" materialDesign:HintAssist.Hint="Ngày sinh" Margin="0,5"/>
-                <TextBox x:Name="tbCMND" Text="{Binding SelectedItem.CMND, ElementName=dtgNhanVien}" materialDesign:HintAssist.Hint="CMND" Margin="0,5" IsReadOnly="True"/>
+                <TextBox x:Name="tbCMND" Text="{Binding SelectedItem.Cmnd, ElementName=dtgNhanVien}" materialDesign:HintAssist.Hint="CMND" Margin="0,5" IsReadOnly="True"/>
                 <TextBox x:Name="tbDiaChi" Text="{Binding SelectedItem.DiaChi, ElementName=dtgNhanVien}" materialDesign:HintAssist.Hint="Địa chỉ" Margin="0,5" IsReadOnly="True"/>
-                <TextBox x:Name="tbSDT" Text="{Binding SelectedItem.SDT, ElementName=dtgNhanVien}" materialDesign:HintAssist.Hint="Số điện thoại" Margin="0,5" IsReadOnly="True"/>
+                <TextBox x:Name="tbSDT" Text="{Binding SelectedItem.Sdt, ElementName=dtgNhanVien}" materialDesign:HintAssist.Hint="Số điện thoại" Margin="0,5" IsReadOnly="True"/>
                 <ComboBox x:Name="cbLoaiNV" Text="{Binding SelectedItem.LoaiNvNavigation.TenLoai, ElementName=dtgNhanVien}" materialDesign:HintAssist.Hint="Loại nhân viên" Margin="0,5" IsReadOnly="True"/>
             </StackPanel>
 
@@ -69,12 +69,12 @@
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
-                <DataGridTextColumn Binding="{Binding MaNV, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Mã NV"/>
-                <DataGridTextColumn Binding="{Binding TenNV, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Tên NV" MinWidth="40"/>
+                <DataGridTextColumn Binding="{Binding MaNv, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Mã NV"/>
+                <DataGridTextColumn Binding="{Binding TenNv, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Tên NV" MinWidth="40"/>
                 <DataGridTextColumn Binding="{Binding NgaySinh, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Ngày sinh"/>
-                <DataGridTextColumn Binding="{Binding CMND, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="CMND"/>
+                <DataGridTextColumn Binding="{Binding Cmnd, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="CMND"/>
                 <DataGridTextColumn Binding="{Binding DiaChi, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Địa chỉ"/>
-                <DataGridTextColumn Binding="{Binding SDT, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="SDT"/>
+                <DataGridTextColumn Binding="{Binding Sdt, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="SDT"/>
                 <DataGridTextColumn Binding="{Binding  LoaiNvNavigation.TenLoai, NotifyOnTargetUpdated=True, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Header="Loại NV"/>
             </DataGrid.Columns>
         </DataGrid>
